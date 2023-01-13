@@ -51,7 +51,7 @@ dependencies:
   firebase_auth: ^4.2.0
   get: ^4.6.5
   velocity_x: ^3.6.0
-  flutter_facebook_auth: ^5.0.6
+  flutter_facebook_auth:
   google_maps_flutter: ^2.2.1
   permission_handler: ^10.2.0
   geolocator: ^9.0.2
