@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "673998289049",
+    "firebase_url": "https://notificationdemo-cc5ae-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "notificationdemo-cc5ae",
+    "storage_bucket": "notificationdemo-cc5ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673998289049:android:c8a0472e4bfc30a19da008",
+        "android_client_info": {
+          "package_name": "notification.com.notification_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673998289049-0df796fl0oh73ov0p2j9j2fr9bb5c609.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "notification.com.notification_demo",
+            "certificate_hash": "2adc3ab87ec46d09b3b5a7f4763a344b281f331b"
+          }
+        },
+        {
+          "client_id": "673998289049-ts7rtsacrqecqdjo0q8dkbgm1icq3t84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtoXyh31r3PXmXT1lLOkuiJIVsNBlF7z0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673998289049-ts7rtsacrqecqdjo0q8dkbgm1icq3t84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

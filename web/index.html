@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="$FLUTTER_BASE_HREF">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="notification_demo">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>notification_demo</title>
+    <link rel="manifest" href="manifest.json">
+    <script src="flutter.js" defer></script>
+<!--    <script defer src="sql-wasm.js"></script>-->
+<!--    <script defer src="main.dart.js" type="application/javascript"></script>-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVamfaxIxKnuUS83p_llgZH5inkVma6Gw"></script>
+
+
+<!--    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>-->
+    <!-- This script adds the flutter initialization JS code -->
+
+</head>
+<body>
+<!--<script>-->
+<!--    if("serviceWorker" in navigator){-->
+<!--    console.log("drffrererer");-->
+<!--    window.addEventListener('load' , function(){-->
+<!--      navigator.serviceWorker.register('/firebase-messaging-sw.js');-->
+<!--       _flutter.loader.loadEntrypoint({-->
+<!--        serviceWorker: {-->
+<!--          serviceWorkerVersion: null,-->
+<!--        }-->
+<!--      }).then(function(engineInitializer) {-->
+<!--        return engineInitializer.initializeEngine();-->
+<!--      }).then(function(appRunner) {-->
+<!--        return appRunner.runApp();-->
+<!--      });-->
+<!--    });-->
+<!--    }-->
+<!--</script>-->
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+
+
+<script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: null,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    })
+
+</script>
+
+
+<script>
+<!--Update with yours config-->
+  const firebaseConfig = {
+    apiKey: 'AIzaSyDL6y4uj8T5Dggv25gdGve3HFHqBwYHI_Q',
+     appId: '1:673998289049:web:ddb2630918e4bd8b9da008',
+     messagingSenderId: '673998289049',
+     projectId: 'notificationdemo-cc5ae',
+     authDomain: 'notificationdemo-cc5ae.firebaseapp.com',
+     databaseURL: 'https://notificationdemo-cc5ae-default-rtdb.asia-southeast1.firebasedatabase.app',
+     storageBucket: 'notificationdemo-cc5ae.appspot.com',
+     measurementId: 'G-ZWTDCXBFHP',
+};
+  firebase.initializeApp(firebaseConfig);
+  </script>
+<script src="main.dart.js" type="application/javascript"></script>
+<!--<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"  ></script>-->
+<!--<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-messaging.js"  ></script>-->
+</body>
+</html>
